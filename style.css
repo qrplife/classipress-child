@@ -1,0 +1,33 @@
+/*
+Theme Name:     Qrplife ClassiPress Child Theme
+Theme URI:      https://github.com/qrplife/classipress-child
+Description:    Basic child theme for ClassiPress customization
+Author:         qrplife
+Author URI:     https://github.com/qrplife
+Template:       classipress
+Version:        0.1.3
+*/
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+/* Hide the search location box from the search bar. */ 
+div.search-location-wrap {
+  display: none;
+}
+
+/* Hide the refine search location on the search results page. */
+aside.widget.widget_refine_search {
+  display: none;
+}
+
+/* Hide this silly text. */
+div.taxonomy-description {
+  display: none;
+}
+
+/* Hide the price on the gallery and list views to make more room for title text. */
+div.content-inner .price-wrap {
+  display: none;
+}
