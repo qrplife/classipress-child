@@ -5,11 +5,17 @@ Description:    Basic child theme for ClassiPress customization
 Author:         qrplife
 Author URI:     https://github.com/qrplife
 Template:       classipress
-Version:        0.1.3
+Version:        0.1.4
 */
+@import url('https://fonts.googleapis.com/css?family=Limelight');
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+/* Style the site title text */
+.header .site-title {
+	font-family: 'Limelight';
 }
 
 /* Hide the search location box from the search bar. */ 
